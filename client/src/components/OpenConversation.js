@@ -9,7 +9,7 @@ export default function OpenConversation(){
             node.scrollIntoView({ smooth: true })
         }
     }, [])
-    const {sendMessage, selectedConversation} = useConversation()
+    const {sendMessage, selectedConversation} = useConversations()
 
     function handleSubmit(e){
         e.preventDefault()
