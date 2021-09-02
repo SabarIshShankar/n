@@ -9,7 +9,7 @@ function Dashboard({ id }){
 
         <div className="d-flex" style={{ height: '100vh'}}>
             <Sidebar id={id}/>
-            {selectedConversation && <OpnConversation />}
+            {selectedConversation && <OpenConversation />}
         </div>
 
     )
